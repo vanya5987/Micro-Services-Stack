@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GendalfPractice", "GendalfPractice\GendalfPractice.csproj", "{0A544195-7C62-42AD-9744-4969EB23E2FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A544195-7C62-42AD-9744-4969EB23E2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A544195-7C62-42AD-9744-4969EB23E2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A544195-7C62-42AD-9744-4969EB23E2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A544195-7C62-42AD-9744-4969EB23E2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D9EB871-C8A9-499F-8A85-14315F4E75DA}
+	EndGlobalSection
+EndGlobal

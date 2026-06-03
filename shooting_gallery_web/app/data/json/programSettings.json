@@ -1,0 +1,29 @@
+{
+    "laserPulseDuration": 200,
+    "laserBrightest": 220,
+    "soundValue": 100,
+    "soundIsEnable": true,
+    "videoResolution": "medium",
+    "exerciseTypeIndex": 3,
+    "playerCount": 2,
+    "centersCount": 2,
+    "bulletCount": 30,
+    "shootTimeThreshold": "\u041d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0435",
+    "tagetFileName": "IDPA_25.png",
+    "coreIsInitialize": false,
+    "language": "ru",
+    "isCalibrationMode": true,
+    "useRedFilter": true,
+    "isQrSearcherUse": true,
+    "qrContourLength": [
+        500,
+        2000
+    ],
+    "targetSize": [
+        28,
+        65
+    ],
+    "targetScaler": 1000,
+    "fileIndicator": "wh200python.dat",
+    "searchDepth": 8
+}
