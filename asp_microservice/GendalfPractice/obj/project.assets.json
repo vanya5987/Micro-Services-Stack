@@ -2494,11 +2494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\GendalfPractice.csproj",
+      "projectUniqueName": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\GendalfPractice.csproj",
       "projectName": "GendalfPractice",
-      "projectPath": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\GendalfPractice.csproj",
+      "projectPath": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\GendalfPractice.csproj",
       "packagesPath": "C:\\Users\\name\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\obj\\",
+      "outputPath": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

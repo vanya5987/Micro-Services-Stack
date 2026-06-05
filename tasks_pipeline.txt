@@ -1,0 +1,28 @@
+ПРИМЕРНЫЕ ЗАДАЧИ НА ПРОЕКТ:
+1) Если успею накатить Docker Compose.
+2) Устанавливаем 4 БД. Python(Client, Operator), ASP(CallSession, DataController).
+3) Описываем Python микросервисы.
+4) Описываем ASP микросервисы.
+5) Тестим работоспособность эндпоинтов.
+5) Ставим Kafka.
+6) Рисуем морду на Blazor.
+7) Добавлять ли Asterisk?
+8) Точно накатить Poetry для питона.
+9) Postman для теста нагрузки.
+10) Kuber? Точно не успею, а вдруг?
+11) Обьязательно прикручиваем Reddis.
+12) Добавить генератор звонков.
+13) Конфигурировать (async engine, uvicorns)
+
+ПИТОНОВСКАЯ МИГРАЦИЯ: 
+alembic init -t async alembic_clients - Инит шаблона
+alembic -c alembic_clients.ini revision --autogenerate -m "Create clients table" - Создание миграции
+alembic -c alembic_clients.ini upgrade head - Применение миграции
+
+НАСТРОЙКИ POSTGRES:
+ALTER SYSTEM SET max_connections = '500';
+ALTER SYSTEM SET shared_buffers = '2GB';
+ALTER SYSTEM SET work_mem = '32MB';
+ALTER SYSTEM SET effective_cache_size = '6GB';
+ALTER SYSTEM SET wal_buffers = '16MB';
+ALTER SYSTEM SET synchronous_commit = 'off';

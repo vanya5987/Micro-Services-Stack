@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\",
+  "WorkspaceRootPath": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\full_stack_high_load\\gendalfpractice\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\full_stack_high_load\\gendalfpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\full_stack_high_load\\gendalfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\full_stack_high_load\\gendalfpractice\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\full_stack_high_load\\gendalfpractice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\micro-services\\asp_microservice\\gendalfpractice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\full_stack_high_load\\gendalfpractice\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\micro-services\\asp_microservice\\gendalfpractice\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\micro-services\\asp_microservice\\gendalfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\micro-services\\asp_microservice\\gendalfpractice\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\micro-services\\asp_microservice\\gendalfpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\micro-services\\asp_microservice\\gendalfpractice\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\full_stack_high_load\\gendalfpractice\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|c:\\users\\name\\desktop\\micro-services\\asp_microservice\\gendalfpractice\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{0A544195-7C62-42AD-9744-4969EB23E2FF}|GendalfPractice\\GendalfPractice.csproj|solutionrelative:gendalfpractice\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -38,33 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\appsettings.json",
-              "RelativeDocumentMoniker": "GendalfPractice\\appsettings.json",
-              "ToolTip": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\appsettings.json",
-              "RelativeToolTip": "GendalfPractice\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-03T07:00:23.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "GendalfPractice\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "GendalfPractice\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-06-02T18:53:20.08Z"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -99,52 +74,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "GendalfPractice\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "GendalfPractice\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-02T18:53:24.829Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\appsettings.json",
+              "RelativeDocumentMoniker": "GendalfPractice\\appsettings.json",
+              "ToolTip": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\appsettings.json",
+              "RelativeToolTip": "GendalfPractice\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-03T07:00:23.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "GendalfPractice\\Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "GendalfPractice\\Controllers\\ClientController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAEwEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T19:26:44.815Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "GendalfPractice\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "GendalfPractice\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-02T18:53:20.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "GendalfPractice\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "GendalfPractice\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-02T18:53:24.829Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "GendalfPractice\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "GendalfPractice\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAEwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T19:26:44.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\Model\\Client.cs",
+              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\Model\\Client.cs",
               "RelativeDocumentMoniker": "GendalfPractice\\Model\\Client.cs",
-              "ToolTip": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\Model\\Client.cs",
+              "ToolTip": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\Model\\Client.cs",
               "RelativeToolTip": "GendalfPractice\\Model\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T19:21:17.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "GendalfPractice\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "GendalfPractice\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T18:59:24.582Z",
               "EditorCaption": ""
@@ -153,11 +150,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\Program.cs",
               "RelativeDocumentMoniker": "GendalfPractice\\Program.cs",
-              "ToolTip": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\Program.cs",
+              "ToolTip": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\Program.cs",
               "RelativeToolTip": "GendalfPractice\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T18:28:37.096Z",
               "EditorCaption": ""

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GendalfPractice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f3c4d837c2dc24903dbedb59b73b2699dbbe29f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65b927bc9397faf849b7a11b30fcc6f1ab4d5702")]
 [assembly: System.Reflection.AssemblyProductAttribute("GendalfPractice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GendalfPractice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

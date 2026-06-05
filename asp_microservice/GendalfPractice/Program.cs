@@ -1,29 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using GendalfPractice.Data;
 
-//Отличие структуры от класса? - ОТРАБОТАНО
-//Stack/Heap - ОТРАБОТАНО
-//GC - ОТРАБОТАНО
-//Ref/out/in - ОТРАБОТАНО
-//Interfaces/Abstract class - ОТРАБОТАНО
-//IEnumerable/ICollection/IList/IQuerable
-//Async/Threading/Processes
-//Linq
-//EfCore
-//Migrations (Миграции в продакшене) - ОТРАБОТАНО
-//MappingResponse (Automapping)
-//OnModelCreating - ОТРАБОТАНО
-//Docker
-//JavaScript
-//Postgres
-//Microservices - ОТРАБОТАНО
-//Kafka
-//Deadlock
-//Один ко многим и многие к одному
-//FluentApi
-//InitTest
-//MocTests
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();

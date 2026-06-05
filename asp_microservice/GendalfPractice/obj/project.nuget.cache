@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iig3vwtdZlE=",
+  "dgSpecHash": "eyRuazXCMlM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\name\\Desktop\\Full_Stack_High_Load\\GendalfPractice\\GendalfPractice.csproj",
+  "projectFilePath": "C:\\Users\\name\\Desktop\\Micro-Services\\asp_microservice\\GendalfPractice\\GendalfPractice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\name\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\name\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
