@@ -29,7 +29,6 @@ def upgrade() -> None:
     sa.Column('Online', sa.Boolean(), nullable=False),
     sa.PrimaryKeyConstraint('ID')
     )
-    op.drop_table('Operators')
     # ### end Alembic commands ###
 
 

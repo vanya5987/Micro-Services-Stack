@@ -12,5 +12,5 @@ class Clients(BaseModel):
     ID: Mapped[int] = mapped_column(primary_key=True)
     Name: Mapped[str]
     Surname: Mapped[str]
-    Balance: Mapped[int]
     Online: Mapped[bool]
+    Balance: Mapped[int]

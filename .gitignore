@@ -1,0 +1,32 @@
+### Visual Studio / .NET ###
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.vsidx
+*.futdcache
+*.dtbcache
+*.userosscache
+.ext/
+log/
+.tools/
+
+### Python / PyCharm ###
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.idea/
+.pytest_cache/
+
+### OS / System ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini

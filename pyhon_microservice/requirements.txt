@@ -3,3 +3,4 @@ asyncpg==any
 sqlalchemy==any
 fastapi==any
 uvicorn==any
+httpx==any

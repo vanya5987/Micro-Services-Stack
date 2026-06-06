@@ -1,8 +1,9 @@
 from pydantic import BaseModel
+from typing import Optional
 
 class OperatorDto(BaseModel):
-    operator_id: int
+    operator_id: Optional[int] = None
     name: str
     surname: str
-    online: bool
-    operator_is_busy: bool
+    online: bool = True
+    operator_is_busy: bool = False
