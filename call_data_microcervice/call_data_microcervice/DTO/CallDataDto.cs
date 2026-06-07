@@ -6,6 +6,6 @@ namespace call_data_microcervice.DTO
     (
         [property: JsonPropertyName("client_id")] int ClientId,
         [property: JsonPropertyName("operator_id")] int OperatorId,
-        [property: JsonPropertyName("duration_seconds")] float CallSessionTime
+        [property: JsonPropertyName("call_session_time")] float CallSessionTime
     );
 }

@@ -7,7 +7,7 @@ router = APIRouter(prefix="/generate-call")
 
 CLIENTS_SERVICE_URL = "http://127.0.0.1:8001/clients/"
 OPERATORS_SERVICE_URL = "http://127.0.0.1:8002/operators/"
-CALL_DATA_SERVICE_URL = ""
+CALL_DATA_SERVICE_URL = "http://localhost:5001/api/CallData"
 
 @router.post("/")
 async def generate_call(client_id: int):
@@ -60,6 +60,18 @@ async def generate_call(client_id: int):
                 json=patch_client_data
             )
             client_update_resp.raise_for_status()
+
+            call_payload = {
+                "client_id": client_id,
+                "operator_id": operator_id,
+                "call_session_time": duration_seconds
+            }
+
+            call_data_resp = await http_client.post(
+                CALL_DATA_SERVICE_URL,
+                json=call_payload
+            )
+            call_data_resp.raise_for_status()
 
             return {
                 "status": "call_finished",

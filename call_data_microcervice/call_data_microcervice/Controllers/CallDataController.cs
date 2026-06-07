@@ -1,6 +1,7 @@
 ﻿using call_data_microcervice.API;
 using call_data_microcervice.DTO;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace call_data_microcervice.Services
 {
@@ -29,6 +30,16 @@ namespace call_data_microcervice.Services
             await _context.SaveChangesAsync();
 
             return Ok(callData);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllCalls()
+        {
+            var calls = await _context.CallDataEntity
+                .OrderBy(call => call.CallId)
+                .ToListAsync();
+
+            return Ok(calls);
         }
     }
 }
