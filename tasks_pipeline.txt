@@ -1,18 +1,9 @@
 ПРИМЕРНЫЕ ЗАДАЧИ НА ПРОЕКТ:
 1) ASP(CallSession, Analytics).
-	(CallSession) ID звонка
-	(CallSession) ID клиента
-	(CallSession) ID оператора
-	(CallSession) длительность звонка
-	(CallSession) денег клиента на звонок затрачено
-2) Описываем ASP микросервисы.
-3) Рисуем морду на Blazor.
-4) Конфигурировать (async engine, uvicorns, Postgres)
+2) Конфигурировать (async engine, uvicorns, Postgres)
 
-5) Добавить админку в Blazor со всеми операциями из 3-х серверов.
-6) Добработать возвращаемое значение из call_generator.
-7) Динамический Update странички.
-
+3) Добработать возвращаемое значение из call_generator.
+4) Протестить все эндпоинты на предмет багов.
 
 	1) Kafka
 	2) Server deadlock
@@ -28,6 +19,10 @@
 	12) Сложность от O1
 	13) Blazor/Razor
 	14) HTTP коды
+	15) Records
+	16) IConfiguration
+	17) gRPC
+	18) Saga Pattern
 
 ПИТОНОВСКАЯ МИГРАЦИЯ: 
 alembic init -t async alembic_clients - Инит шаблона

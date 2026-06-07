@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException, status
 import asyncio
 import httpx
+import time
 
 router = APIRouter(prefix="/generate-call")
 
@@ -13,16 +14,12 @@ async def generate_call(client_id: int):
     async with httpx.AsyncClient() as http_client:
         try:
             client_resp = await http_client.get(f"{CLIENTS_SERVICE_URL}{client_id}")
+
             if client_resp.status_code == 404:
                 raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Client not found")
+
             client_resp.raise_for_status()
-
             client_data = client_resp.json()
-            current_balance = client_data.get("balance", 0)
-
-            if current_balance <= 0:
-                raise HTTPException(
-                    status_code=status.HTTP_402_PAYMENT_REQUIRED)
 
             operator_resp = await http_client.get(f"{OPERATORS_SERVICE_URL}free")
             if operator_resp.status_code == 404:
@@ -32,7 +29,12 @@ async def generate_call(client_id: int):
             operator_data = operator_resp.json()
             operator_id = operator_data.get("operator_id")
 
+            start_time = time.perf_counter()
+
             await asyncio.sleep(4)
+
+            end_time = time.perf_counter()
+            duration_seconds = round(end_time - start_time, 2)
 
             patch_operator_data = {
                 "operator_id": operator_id,
@@ -47,12 +49,10 @@ async def generate_call(client_id: int):
             )
             op_update_resp.raise_for_status()
 
-            new_balance = max(0, current_balance - 10)
             patch_client_data = {
                 "client_id": client_id,
                 "name": client_data.get("name"),
                 "surname": client_data.get("surname"),
-                "balance": new_balance,
                 "online": client_data.get("online")
             }
             client_update_resp = await http_client.patch(
@@ -65,8 +65,7 @@ async def generate_call(client_id: int):
                 "status": "call_finished",
                 "client_id": client_id,
                 "operator_id": operator_id,
-                "old_balance": current_balance,
-                "new_balance": new_balance
+                "duration_seconds": duration_seconds
             }
 
         except HTTPException:

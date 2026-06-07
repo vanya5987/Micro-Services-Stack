@@ -15,7 +15,6 @@ async def create_client(client: ClientDto, session = Depends(engine.async_sessio
         client_params: dict = {
             "Name": client.name,
             "Surname": client.surname,
-            "Balance": client.balance,
             "Online": client.online
         }
 
@@ -51,7 +50,6 @@ async def get_client_by_id(client_id: int, session = Depends(engine.async_sessio
             client_id=client_db.ID,
             name=client_db.Name,
             surname=client_db.Surname,
-            balance=client_db.Balance,
             online=client_db.Online
         )
     except HTTPException:
@@ -78,7 +76,6 @@ async def get_clients_slice(last_id: int = 0, slice_size: int = 100, session=Dep
                 client_id=client.ID,
                 name=client.Name,
                 surname=client.Surname,
-                balance=client.Balance,
                 online=client.Online)
             for client in clients_db]
 
@@ -107,7 +104,6 @@ async def delete_client(client_id: int, session = Depends(engine.async_session_f
 async def update_client(client_id: int, client: ClientDto, session=Depends(engine.async_session_factory)):
     try:
         client_params: dict = {
-            "Balance": client.balance,
             "Online": client.online
         }
 

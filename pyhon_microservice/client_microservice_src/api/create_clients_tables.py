@@ -13,4 +13,3 @@ class Clients(BaseModel):
     Name: Mapped[str]
     Surname: Mapped[str]
     Online: Mapped[bool]
-    Balance: Mapped[int]
