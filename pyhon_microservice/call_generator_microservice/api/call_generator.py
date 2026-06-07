@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException, status
+from datetime import datetime
 import asyncio
 import httpx
 import time
@@ -7,7 +8,7 @@ router = APIRouter(prefix="/generate-call")
 
 CLIENTS_SERVICE_URL = "http://127.0.0.1:8001/clients/"
 OPERATORS_SERVICE_URL = "http://127.0.0.1:8002/operators/"
-CALL_DATA_SERVICE_URL = "http://localhost:5001/api/CallData"
+CALL_DATA_SERVICE_URL = "http://localhost:5001/api/CallData/create-call/"
 
 @router.post("/")
 async def generate_call(client_id: int):
@@ -74,10 +75,9 @@ async def generate_call(client_id: int):
             call_data_resp.raise_for_status()
 
             return {
-                "status": "call_finished",
                 "client_id": client_id,
                 "operator_id": operator_id,
-                "duration_seconds": duration_seconds
+                "duration_seconds": duration_seconds,
             }
 
         except HTTPException:

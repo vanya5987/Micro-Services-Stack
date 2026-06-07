@@ -19,5 +19,8 @@ namespace call_data_microcervice.DTO
 
         [JsonPropertyName("call_session_time")]
         public float CallSessionTime { get; set; }
+
+        [JsonPropertyName("call_date")]
+        public DateTime CallDate { get; set; }
     }
 }
